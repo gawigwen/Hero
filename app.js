@@ -15,10 +15,12 @@ console.log(warriorage)
 
 function newwarriror(name){
 	if(name == "Jake"){
-		return "Jake is our lovable hero , who has seen a few battles with his trusty whip"
+		return "Hero is our lovable hero , who has seen a few battles with his trusty whip"
 	}else{
 		return "You are not worthy"
 	}
 }
 var character = newwarriror(name)
 console.log(character)
+
+function
