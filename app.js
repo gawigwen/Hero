@@ -17,7 +17,7 @@ var warriorage = warrior(age)
 
 function newwarriror(name){
 	if(name == "Makoto"){
-		return  name +" is our lovable hero , who " + warriorage + " with hes trusty " +weapon
+		return  name +" is our lovable hero , who " + warriorage + " with her trusty " +weapon
 	}else{
 		return "You are not worthy"
 	}
@@ -39,16 +39,33 @@ function animalClub(animalHouse){
 }
 console.log(animalClub(animalHouse))
 
-var hero = "Iron Man"
+var avenger = "Iron Man"
 function avengerAssemble(hero){
 	if(hero == "Iron Man"){
-		return "Your suit is needed"
+		return avenger + " suit up!"
 	}else if(hero == "Captain America"){
-		return "We need you shield"
+		return avenger + " raise your shield!"
 	}else if (hero == "Black Widow"){
-		return "We have a target for you"
+		return avenger + " we have a target for you"
 	}else{
 		return "Sorry, you are not needed fir this mission"
 	}
 }
-console.log(avengerAssemble(hero))
+console.log(avengerAssemble(avenger))
+
+function lights(age, count){
+	if(age > count){
+		return "And then there was light"
+	}else{
+		return "Lights out"
+	}
+}
+console.log(lights(age, count))
+
+var carType = "Tesla"
+var color = "red"
+var num = -5
+
+function car(){
+	
+}
