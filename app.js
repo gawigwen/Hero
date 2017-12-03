@@ -66,6 +66,11 @@ var carType = "Tesla"
 var color = "red"
 var num = -5
 
-function car(){
-	
+function car(carType){
+	if(car == "Tasla"){
+		return "We have "+ color + carType
+	}else{
+		return "We don't haev any blue Toyotas in stock"
+	}
 }
+console.log(car(carType))
